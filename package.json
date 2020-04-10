@@ -1,0 +1,12 @@
+{
+	"scripts": {
+		"transpile": "babel input.ts -o output.js"
+	},
+	"devDependencies": {
+		"@babel/core": "^7.9.0",
+		"@babel/cli": "^7.8.4",
+		"@babel/plugin-proposal-class-properties": "^7.8.3",
+		"@babel/preset-env": "^7.9.5",
+		"@babel/preset-typescript": "^7.9.0"
+	}
+}
